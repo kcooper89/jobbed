@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's for Dinner?</title>
+
+    <!-- Bootstrap CDN -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+
+    <!-- Local Bootstrap -->
+    <link rel="stylesheet" href="bootstrap.css">
+    
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Animate.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2a86921d92.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="animated fadeInDown">
+            <div class="jumbotron">
+                <h1 class="display-3 text-center JumboTitle">What's for Dinner?</h1>
+                <h4 class="text-center">Powered By TheMealDB & TheCocktailDB API</h4>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <!-- <a class="navbar-brand" href="index.html">Whats For Dinner?</a> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="selectBeef.html">Beef</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="selectPork.html">Pork</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="selectChicken.html">Chicken</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="selectSeafood.html">Seafood</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    Your One-stop Random Recipe Finder
+                </span>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="display-4 text-center choose">Please choose a protein</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a class="btn" href="selectBeef.html">
+                    <div id="Beef" class="card animated fadeIn">
+                        <div class="card-header">
+                            <p class="text-center">Beef</p>
+                        </div>
+                        <div class="card-body">
+                            <img src="Assets/Beef.jpg" alt="Beef">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="btn" href="selectPork.html">
+                    <div id="Beef" class="card animated fadeIn">
+                        <div class="card-header">
+                            <p class="text-center">Pork</p>
+                        </div>
+                        <div class="card-body">
+                            <img src="Assets/Pork.jpg" alt="Pork">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="btn" href="selectChicken.html">
+                    <div id="Beef" class="card animated fadeIn">
+                        <div class="card-header">
+                            <p class="text-center">Chicken</p>
+                        </div>
+                        <div class="card-body">
+                            <img src="Assets/Chicken.jpg" alt="Chicken">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="btn" href="selectSeafood.html">
+                    <div id="Beef" class="card animated fadeIn">
+                        <div class="card-header">
+                            <p class="text-center">Seafood</p>
+                        </div>
+                        <div class="card-body">
+                            <img src="Assets/Seafood.jpg" alt="Seafood">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer id="sticky-footer" class="py-4">
+        <div class="container text-center footerDiv">
+          <small>Copyright &copy; Kyle Cooper, Erica Cannedy, Kobe Matias 2020</small>
+        </div>
+    </footer>
+</body>
+</html>
